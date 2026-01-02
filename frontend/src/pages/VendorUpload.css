@@ -1,0 +1,96 @@
+.upload-header {
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+}
+
+.upload-header h1 {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-xs);
+}
+
+.upload-header p {
+    color: var(--color-text-secondary);
+}
+
+.upload-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.success-banner {
+    background-color: #d1fae5;
+    color: #065f46;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--spacing-lg);
+    text-align: center;
+    font-weight: 500;
+}
+
+.vendor-group {
+    position: relative;
+}
+
+.vendor-status {
+    margin-top: -0.5rem;
+    margin-bottom: var(--spacing-md);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+}
+
+.text-success {
+    color: var(--color-success);
+}
+
+.text-warning {
+    color: var(--color-warning);
+}
+
+.file-upload-group {
+    margin-bottom: var(--spacing-lg);
+}
+
+.file-label {
+    display: block;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.file-input {
+    display: block;
+    width: 100%;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}
+
+.file-input::file-selector-button {
+    margin-right: var(--spacing-md);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-md);
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-border);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.file-input::file-selector-button:hover {
+    background-color: #e5e7eb;
+}
+
+.file-hint {
+    margin-top: var(--spacing-xs);
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+}
+
+.form-actions {
+    margin-top: var(--spacing-xl);
+}
+
+.submit-btn {
+    width: 100%;
+}
