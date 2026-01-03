@@ -7,7 +7,7 @@ The system automates low‑risk invoice payments while routing higher‑risk cas
 
 ---
 
-## 🚩 Problem Statement
+## Problem Statement
 
 In many organizations, invoice payments are:
 - Manually reviewed regardless of risk
@@ -19,7 +19,7 @@ This leads to delayed vendor payments, increased operational cost, and inefficie
 
 ---
 
-## 💡 Solution: PayGuard
+## Solution: PayGuard
 
 PayGuard introduces a **risk‑based approval engine** that decides **when money should move automatically** and **when a human must intervene**.
 
@@ -32,7 +32,7 @@ Low‑risk invoices are auto‑approved, while higher‑risk invoices are routed
 
 ---
 
-## ⚙️ How It Works (High‑Level Workflow)
+## How It Works (High‑Level Workflow)
 
 1. **Vendor submits an invoice**
 2. System checks:
@@ -47,7 +47,7 @@ Low‑risk invoices are auto‑approved, while higher‑risk invoices are routed
 
 ---
 
-## 🧠 Core Decision Logic
+## Core Decision Logic
 
 ```text
 IF vendor is registered
